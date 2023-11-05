@@ -10,7 +10,7 @@ namespace ProxyDesignPattern.Assets
     {
         public override void DoSomeWork()
         {
-            Console.WriteLine("ConcreteSubject.DoSomeWork()");
+            Console.WriteLine("This text comes from ConcreteSubject.DoSomeWork() method.");
         }
     }
 }
