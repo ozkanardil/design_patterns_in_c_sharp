@@ -7,7 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02_Structural", "02_Structu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyDesignPattern", "ProxyDesignPattern\ProxyDesignPattern.csproj", "{FBD22C83-D1A7-4571-BC2A-C509D17987E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProxyDesignPatternModified", "ProxyDesignPatternModified\ProxyDesignPatternModified.csproj", "{467D24A3-6A6D-4EFF-AB03-EC7639B458CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProxyDesignPatternModified", "ProxyDesignPatternModified\ProxyDesignPatternModified.csproj", "{467D24A3-6A6D-4EFF-AB03-EC7639B458CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorDesignPattern", "DecoratorDesignPattern\DecoratorDesignPattern.csproj", "{667A1959-57AF-48EE-9B13-F31E35B1352A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{467D24A3-6A6D-4EFF-AB03-EC7639B458CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{467D24A3-6A6D-4EFF-AB03-EC7639B458CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{467D24A3-6A6D-4EFF-AB03-EC7639B458CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{667A1959-57AF-48EE-9B13-F31E35B1352A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{667A1959-57AF-48EE-9B13-F31E35B1352A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{667A1959-57AF-48EE-9B13-F31E35B1352A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{667A1959-57AF-48EE-9B13-F31E35B1352A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{FBD22C83-D1A7-4571-BC2A-C509D17987E9} = {0F401121-478A-4D27-9831-8C02156D6AE1}
 		{467D24A3-6A6D-4EFF-AB03-EC7639B458CC} = {0F401121-478A-4D27-9831-8C02156D6AE1}
+		{667A1959-57AF-48EE-9B13-F31E35B1352A} = {0F401121-478A-4D27-9831-8C02156D6AE1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {33690676-0129-4CB8-9F62-06A94CB202F7}
